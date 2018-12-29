@@ -78,10 +78,38 @@ For example `[OptionAlias("--x")]`, then it can be used by executing
 
 ### Boolean flags
 Boolean properties does not require passing value (it is optional when executing program)
-For example
-> C:\>Program -SomeFlag
+So executing
+> C:\>ProgramName -SomeFlag
 is equivalen to 
-> C:\>Program -SomeFlag=true
+> C:\>ProgramName -SomeFlag=true
+To add boolean flag, simply add new property of type bool:
+```csharp
+[Option]
+[OptionAlias("--help")]
+[OptionAlias("-h")]
+public bool ShowHelp { get; set; }
+```
 
 ### Registering custom converters
 When you want to define a propty of custom type, you can register a converter function that will parse command line argument value to this custom type.
+
+For example, having custom type
+```csharp
+        private class CustomType
+        {
+            public int SomeValue { get; set; }
+        } 
+```
+You can parse it by registering converter:
+```csharp
+            var parser = new AttributeParser();
+
+            parser.RegisterCustomConverter<CustomType>(i =>
+            {
+                if (i == "mystringvalue")
+                {
+                    return new CustomType { SomeValue = 100 };
+                }
+                return null;
+            });
+```
