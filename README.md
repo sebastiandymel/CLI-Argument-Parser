@@ -45,3 +45,9 @@ if (configuration.ShowHelp)
         Console.WriteLine("HEEELP");
     }
 ```
+
+## How to add new options?
+### Standard CLR types
+Mark property with `[Option]` attribute.
+This will create a default alias with the name of property.
+To change the alias, mark property with `[OptionAlias]` attribute.
