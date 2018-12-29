@@ -37,7 +37,16 @@ Create a class to hold desired configuration settings, mark with attributes:
 ```
 
 
-Parse it:
+Parse it with `IAttributeParser`:
+```csharp
+    public interface IAttributeParser
+    {
+        T Parse<T>(params string[] arguments) where T : new();
+        void RegisterCustomConverter<T>(Func<string, T> converter) where T : class;
+    }
+```
+
+Example:
 ```csharp
     class Program
     {
@@ -73,3 +82,6 @@ For example
 > C:\>Program -SomeFlag
 is equivalen to 
 > C:\>Program -SomeFlag=true
+
+### Registering custom converters
+When you want to define a propty of custom type, you can register a converter function that will parse command line argument value to this custom type.
