@@ -1,5 +1,5 @@
-# CLI-Argument-Parser
-Library to parse command line arguments - attributes based approach. C# and dotnetcore
+# CLI-Argument-Parser (dotnetcore)
+SEDY's Library to parse command line arguments - attributes based approach. C# and dotnetcore
 
 ## How to use it?
 
