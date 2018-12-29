@@ -1,0 +1,14 @@
+C:\CODE\CLI-Argument-Parser\src\CommandLineParser\CommandLineSyntax\bin\Debug\netcoreapp2.1\CommandLineSyntax.deps.json
+C:\CODE\CLI-Argument-Parser\src\CommandLineParser\CommandLineSyntax\bin\Debug\netcoreapp2.1\CommandLineSyntax.runtimeconfig.json
+C:\CODE\CLI-Argument-Parser\src\CommandLineParser\CommandLineSyntax\bin\Debug\netcoreapp2.1\CommandLineSyntax.runtimeconfig.dev.json
+C:\CODE\CLI-Argument-Parser\src\CommandLineParser\CommandLineSyntax\bin\Debug\netcoreapp2.1\CommandLineSyntax.dll
+C:\CODE\CLI-Argument-Parser\src\CommandLineParser\CommandLineSyntax\bin\Debug\netcoreapp2.1\CommandLineSyntax.pdb
+C:\CODE\CLI-Argument-Parser\src\CommandLineParser\CommandLineSyntax\obj\Debug\netcoreapp2.1\CommandLineSyntax.csprojAssemblyReference.cache
+C:\CODE\CLI-Argument-Parser\src\CommandLineParser\CommandLineSyntax\obj\Debug\netcoreapp2.1\CommandLineSyntax.csproj.CoreCompileInputs.cache
+C:\CODE\CLI-Argument-Parser\src\CommandLineParser\CommandLineSyntax\obj\Debug\netcoreapp2.1\CommandLineSyntax.AssemblyInfoInputs.cache
+C:\CODE\CLI-Argument-Parser\src\CommandLineParser\CommandLineSyntax\obj\Debug\netcoreapp2.1\CommandLineSyntax.AssemblyInfo.cs
+C:\CODE\CLI-Argument-Parser\src\CommandLineParser\CommandLineSyntax\obj\Debug\netcoreapp2.1\CommandLineSyntax.dll
+C:\CODE\CLI-Argument-Parser\src\CommandLineParser\CommandLineSyntax\obj\Debug\netcoreapp2.1\CommandLineSyntax.pdb
+C:\CODE\CLI-Argument-Parser\src\CommandLineParser\CommandLineSyntax\bin\Debug\netcoreapp2.1\CliParser.dll
+C:\CODE\CLI-Argument-Parser\src\CommandLineParser\CommandLineSyntax\bin\Debug\netcoreapp2.1\CliParser.pdb
+C:\CODE\CLI-Argument-Parser\src\CommandLineParser\CommandLineSyntax\obj\Debug\netcoreapp2.1\CommandLineSyntax.csproj.CopyComplete

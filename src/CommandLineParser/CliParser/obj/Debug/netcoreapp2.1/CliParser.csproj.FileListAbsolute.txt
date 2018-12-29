@@ -1,0 +1,8 @@
+C:\CODE\CLI-Argument-Parser\src\CommandLineParser\CliParser\bin\Debug\netcoreapp2.1\CliParser.deps.json
+C:\CODE\CLI-Argument-Parser\src\CommandLineParser\CliParser\bin\Debug\netcoreapp2.1\CliParser.dll
+C:\CODE\CLI-Argument-Parser\src\CommandLineParser\CliParser\bin\Debug\netcoreapp2.1\CliParser.pdb
+C:\CODE\CLI-Argument-Parser\src\CommandLineParser\CliParser\obj\Debug\netcoreapp2.1\CliParser.csproj.CoreCompileInputs.cache
+C:\CODE\CLI-Argument-Parser\src\CommandLineParser\CliParser\obj\Debug\netcoreapp2.1\CliParser.AssemblyInfoInputs.cache
+C:\CODE\CLI-Argument-Parser\src\CommandLineParser\CliParser\obj\Debug\netcoreapp2.1\CliParser.AssemblyInfo.cs
+C:\CODE\CLI-Argument-Parser\src\CommandLineParser\CliParser\obj\Debug\netcoreapp2.1\CliParser.dll
+C:\CODE\CLI-Argument-Parser\src\CommandLineParser\CliParser\obj\Debug\netcoreapp2.1\CliParser.pdb
