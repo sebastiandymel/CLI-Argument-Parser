@@ -22,6 +22,17 @@ Create a class to hold desired configuration settings, mark with attributes:
         [OptionAlias("--age-of-client")]
         [OptionAlias("-a")]
         public int Age { get; set; }
+        
+        [Option]
+        [OptionAlias("--date")]
+        [OptionAlias("-d")]
+        public DateTime Date { get; set; }
+        
+        [Option]
+        [OptionAlias("--some-value")]
+        [OptionAlias("-val")]
+        [OptionAlias("-x")]
+        public double Value { get; set; }
     }
 ```
 
@@ -49,5 +60,16 @@ if (configuration.ShowHelp)
 ## How to add new options?
 ### Standard CLR types
 Mark property with `[Option]` attribute.
-This will create a default alias with the name of property.
+This will create a default alias with the name of property so it can be used right away by executing
+> C:\>ProgramName -PropertyName value
+
 To change the alias, mark property with `[OptionAlias]` attribute.
+For example `[OptionAlias("--x")]`, then it can be used by executing 
+> C:\>ProgramName --x value
+
+### Boolean flags
+Boolean properties does not require passing value (it is optional when executing program)
+For example
+> C:\>Program -SomeFlag
+is equivalen to 
+> C:\>Program -SomeFlag=true
